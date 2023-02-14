@@ -5,6 +5,7 @@ type Website = {
   recommended?: boolean
   mayNeedVPN?: boolean
   notFree?: boolean
+  needAccount?: boolean
 }
 
 type Collection = {
@@ -20,6 +21,21 @@ const data: Collection[] = [
         title: 'Flat UI Colors',
         description: '280 handpicked colors ready for COPY & PASTE',
         address: 'https://flatuicolors.com/',
+      },
+      {
+        title: 'Coolors - The super fast color palettes generator!',
+        description: 'Generate or browse beautiful color combinations for your designs.',
+        address: 'https://coolors.co/',
+      },
+      {
+        title: 'ColorBox',
+        description: 'Create amazing color sets superfast',
+        address: 'https://colorbox.io/',
+      },
+      {
+        title: '色輪、調色盤產生器 | Adobe Color',
+        description: '使用色輪或影像建立調色盤，或瀏覽 Adobe Color 社群中的數千個顏色組合。',
+        address: 'https://color.adobe.com/zh/create/color-wheel',
       },
       {
         title: 'RGB颜色值与十六进制颜色码转换工具',
@@ -112,6 +128,18 @@ const data: Collection[] = [
           'Animista is a CSS animation library and a place where you can play with a collection of ready-made CSS animations and download only those you will use.',
         address: 'https://animista.net/',
       },
+      {
+        title: 'CSS3 Generator',
+        description: 'CSS3 Generator',
+        address: 'http://css3generator.com/',
+      },
+      {
+        title: 'Fancy Border Radius Generator',
+        description:
+          'A visual generator to build organic looking shapes with the help of CSS3 border-radius property',
+        address: 'https://9elements.github.io/fancy-border-radius/',
+      },
+      { title: 'Clippy — CSS clip-path maker', address: 'https://bennettfeely.com/clippy/' },
     ],
   },
   {
@@ -233,6 +261,12 @@ const data: Collection[] = [
           'One Last Image - 卢浮宫生成器 - One Last Kiss 风格 封面生成 图片转线稿 - 神奇海螺实验室',
         description: 'One Last Kiss 卢浮宫生成器 风格 图片转线稿 封面生成 宇多田光 神奇海螺实验室',
         address: 'https://lab.magiconch.com/one-last-image/',
+      },
+      {
+        title: 'cssFilters.co - Custom and Instagram like photo filters for CSS',
+        description:
+          'Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.',
+        address: 'https://www.cssfilters.co/',
       },
     ],
   },
