@@ -6,9 +6,9 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^2.0.10",
-    "astro-compress": "^1.1.32",
-    "prettier": "^2.8.4",
-    "prettier-plugin-astro": "^0.8.0"
+    "astro": "^2.6.6",
+    "astro-compress": "^1.1.47",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.10.0"
   }
 }
