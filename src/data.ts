@@ -557,6 +557,11 @@ const data: Collection[] = [
         description: 'A simple elimination game',
         address: 'https://sheep-fucking-sheep.gutianhuang.red/',
       },
+      {
+        title: 'PCOL - SNOOKER',
+        description: 'Play high quality Snooker game now just in your browser.',
+        address: 'http://www.heyzxz.me/pcol/',
+      },
     ],
   },
   {
@@ -622,6 +627,38 @@ const data: Collection[] = [
         description:
           'What is my IP address? IP Lookup, IP Location, IP Tracker & IP Tracer. The best IP address tools for free.',
         address: 'https://www.ipaddress.com/',
+      },
+    ],
+  },
+  {
+    name: '虚拟',
+    websites: [
+      {
+        title: 'SMS-Activate是在线接受短信的虚拟号码服务 ',
+        description:
+          '使用SMS-Activate的虚拟号码来在线接受短信。可以在600个多服务注册的一次性号码。短信即刻送到给你，低价',
+        address: 'https://sms-activate.org/',
+      },
+    ],
+  },
+  {
+    name: 'AI',
+    websites: [
+      {
+        title: '文心一言',
+        description:
+          '文心一言是百度研发的知识增强大语言模型，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。',
+        address: 'https://yiyan.baidu.com/',
+      },
+    ],
+  },
+  {
+    name: '导航网站',
+    websites: [
+      {
+        title: '前端助手',
+        description: '前端开发常用技术工具网址导航汇总，有觉得好的网站或文章可以在issues里提',
+        address: 'https://web-abin.gitee.io/abin-web/tools',
       },
     ],
   },
