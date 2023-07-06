@@ -231,6 +231,11 @@ const data: Collection[] = [
         description: '在线切九宫格工具',
         address: 'https://v.magiconch.com/sns-image',
       },
+      {
+        title: 'Hysli.io AI ArtQR 智绘二维码',
+        description: '绘制带有彩色绘画的二维码',
+        address: 'https://hysli.io/#/projectManagement',
+      },
     ],
   },
   {
