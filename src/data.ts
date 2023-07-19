@@ -273,6 +273,18 @@ const data: Collection[] = [
           'Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.',
         address: 'https://www.cssfilters.co/',
       },
+      {
+        title: 'remove.bg',
+        description:
+          'remove.bg在线抠图软件轻松实现一键抠图，只需上传图片，无需其他操作，即可100%自动去除图片背景。',
+        address: 'https://www.remove.bg/zh',
+      },
+      {
+        title: 'Imglarger Logo',
+        description:
+          'AI Image Enlarger 是一款免費的在線圖像放大器，可以自動放大和增強小圖像。使 jpg/png 圖片變大而不損失質量。',
+        address: 'https://imglarger.com/zh-tw',
+      },
     ],
   },
   {
