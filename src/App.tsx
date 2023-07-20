@@ -1,9 +1,11 @@
 import { Fragment } from 'react'
+import Card from './components/Card/Card'
 import data from './data'
+import './App.less'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1>Useful</h1>
       {data.map(collection => (
         <Fragment key={collection.name}>
@@ -11,14 +13,7 @@ function App() {
           <ul>
             {collection.websites.map(site => (
               <li key={site.address}>
-                <a href={site.address} target="__blank" rel="external nofollow noopener noreferrer">
-                  {site.title}
-                </a>
-                {site.description && (
-                  <>
-                    &nbsp;--&nbsp;<span>{site.description}</span>
-                  </>
-                )}
+                <Card {...site} />
               </li>
             ))}
           </ul>

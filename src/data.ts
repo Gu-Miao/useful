@@ -1,4 +1,4 @@
-type Website = {
+export type Website = {
   title: string
   description?: string
   address: string

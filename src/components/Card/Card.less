@@ -1,0 +1,43 @@
+.Card {
+  // variables
+  --shadow-color: 198deg 26% 41%;
+  --shadow-elevation-medium: 0.6px 0.7px 1.2px hsl(var(--shadow-color) / 0.19),
+    3px 3.3px 6px -0.3px hsl(var(--shadow-color) / 0.33),
+    6.7px 7.2px 13.3px -0.7px hsl(var(--shadow-color) / 0.47),
+    14.7px 15.9px 29.2px -1px hsl(var(--shadow-color) / 0.61);
+  --padding: 2em;
+
+  // reset link style
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  width: 20em;
+  padding: var(--padding);
+  background: #fff;
+  border-radius: 0.8em;
+  box-shadow: var(--shadow-elevation-medium);
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .thum {
+    height: 16em;
+    margin: calc(-1 * var(--padding));
+    margin-bottom: 0.4em;
+    background: #ddd;
+  }
+
+  .title {
+    font-size: 1.35em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+  }
+
+  .desc {
+    font-style: italic;
+  }
+}
