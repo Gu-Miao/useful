@@ -4,6 +4,7 @@
 
 ul {
   padding-left: 0;
+  list-style: none;
 }
 
 body {
@@ -17,26 +18,34 @@ body {
   width: auto;
   padding: 1em;
 
-  h1 {
-    text-align: center;
-    font-size: 5em;
-    margin-bottom: -0.1em;
-  }
-
-  p {
+  header {
     text-align: center;
     margin-bottom: 4em;
   }
 
+  h1 {
+    font-size: 5em;
+    margin-bottom: -0.1em;
+  }
+
   ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5em;
+    margin: 0 auto;
+    @media (min-width: 44em) {
+      width: 42em;
+      li {
+        width: 20em;
+      }
+    }
+    @media (min-width: 66em) {
+      width: 64em;
+    }
+    @media (min-width: 88em) {
+      width: 86em;
+    }
   }
 
   li {
-    list-style: none;
+    width: 100%;
     display: block;
     margin-bottom: 2em;
   }

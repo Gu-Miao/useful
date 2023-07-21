@@ -12,7 +12,7 @@ function Card(props: Website) {
       <div className="desc">{props.description}</div>
       <div className="keywords">
         {props.keywords.map(keyword => (
-          <span>{keyword}</span>
+          <span key={keyword}>{keyword}</span>
         ))}
       </div>
     </ExLink>
