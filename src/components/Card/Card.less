@@ -18,17 +18,19 @@
   border-radius: 0.8em;
   box-shadow: var(--shadow-elevation-medium);
   overflow: hidden;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 
   &:hover {
     transform: scale(1.05);
   }
 
   .thum {
-    height: 16em;
     margin: calc(-1 * var(--padding));
-    margin-bottom: 0.4em;
-    background: #ddd;
+    margin-bottom: 1em;
+
+    img {
+      width: 100%;
+    }
   }
 
   .title {
@@ -39,5 +41,19 @@
 
   .desc {
     font-style: italic;
+    margin-bottom: 0.8em;
+  }
+
+  .keywords {
+    display: flex;
+    gap: 0.2em;
+
+    span {
+      background-color: #03a9f4;
+      color: #fff;
+      border-radius: 0.4em;
+      font-size: 0.6em;
+      padding: 0.3em 1em;
+    }
   }
 }
