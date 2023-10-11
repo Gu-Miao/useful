@@ -111,135 +111,167 @@ const websites: Website[] = [
     keywords: ['图标', 'CSS'],
   },
 
-  // {
-  //   name: 'CSS',
-  //   websites: [
-  //     {
-  //       title: 'CSS Shadow Palette Generator',
-  //       description: 'Friendly tutorials for developers. Focus on React, CSS, Animation, and more!',
-  //       address: 'https://www.joshwcomeau.com/shadow-palette/',
-  //     },
-  //     {
-  //       title: 'Shape Divider App',
-  //       description: 'Create fully responsive shape dividers for your next web project',
-  //       address: 'https://www.shapedivider.app/',
-  //     },
-  //     {
-  //       title: 'Animista - On-Demand CSS Animations Library',
-  //       description:
-  //         'Animista is a CSS animation library and a place where you can play with a collection of ready-made CSS animations and download only those you will use.',
-  //       address: 'https://animista.net/',
-  //     },
-  //     {
-  //       title: 'CSS3 Generator',
-  //       description: 'CSS3 Generator',
-  //       address: 'http://css3generator.com/',
-  //     },
-  //     {
-  //       title: 'Fancy Border Radius Generator',
-  //       description:
-  //         'A visual generator to build organic looking shapes with the help of CSS3 border-radius property',
-  //       address: 'https://9elements.github.io/fancy-border-radius/',
-  //     },
-  //     { title: 'Clippy — CSS clip-path maker', address: 'https://bennettfeely.com/clippy/' },
-  //   ],
-  // },
-  // {
-  //   name: 'CSS/图像生成',
-  //   websites: [
-  //     {
-  //       title: 'Gradient Generator — Create CSS, SVG and PNG color gradients',
-  //       description:
-  //         'Use this tool to create linear, radial, and conic gradient backgrounds. Export as CSS, SVG, PNG, and JPEG for use on your website, social media, or wallpaper.',
-  //       address: 'https://doodad.dev/gradient-generator/',
-  //     },
-  //     {
-  //       title: 'Pattern Generator | Create Seamless, Royalty-Free Patterns',
-  //       description:
-  //         'Generate seamless, unique, royalty-free patterns to use for free in any project. Export as SVG, JPEG, or PNG.',
-  //       address: 'https://doodad.dev/pattern-generator/',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: '图像生成',
-  //   websites: [
-  //     {
-  //       title: 'ASCII Generator',
-  //       description: 'Generate a ASCII graphic from a word or text. More than 130 fonts.',
-  //       address: 'http://www.network-science.de/ascii/',
-  //     },
-  //     { title: '字符字生成器 - 神奇海螺实验室', address: 'https://magiconch.com/fontfont/' },
-  //     {
-  //       title: 'Shields.io: Quality metadata badges for open source projects',
-  //       description:
-  //         'We serve fast and scalable informational images as badges\nfor GitHub, Travis CI, Jenkins, WordPress and many more services. Use them to\ntrack the state of your projects, or for promotional purposes.',
-  //       address: 'https://shields.io/',
-  //     },
-  //     {
-  //       title: 'CSS Sprites Generator Tool | Toptal®',
-  //       description:
-  //         'Generate CSS image sprites from multiple images with our easy-to-use uploading tool. Get started for free.',
-  //       address: 'https://www.toptal.com/developers/css/sprite-generator/',
-  //     },
-  //     {
-  //       title: 'Blobmaker - Make organic SVG shapes for your next design',
-  //       description:
-  //         'Make organic SVG shapes for your next design. Modify the complexity, contrast, and color, to generate unique SVG blobs every time.',
-  //       address: 'https://www.blobmaker.app/',
-  //     },
-  //     {
-  //       title: 'Get Waves – Create SVG waves for your next design',
-  //       description:
-  //         'A free SVG wave generator to make unique SVG waves for your next web design. Choose a curve, adjust complexity, randomize!',
-  //       address: 'https://getwaves.io/',
-  //     },
-  //     {
-  //       title: 'colorfu',
-  //       description:
-  //         'Make beautiful but also meaningful wallpapers. ColorFu is where people can use words, colors, patterns and images to make unique wallpapers to express their feelings or ideas.',
-  //       address: 'https://pearmini.github.io/colorfu/#/',
-  //     },
-  //     { title: 'Video2WebP', description: 'Video2WebP', address: 'https://video2webp.mattj.io/' },
-  //     {
-  //       title: 'Notion 风格头像制作',
-  //       description: '一个生成 Notion 风格头像的在线工具。',
-  //       address: 'https://notion-avatar.vercel.app/zh',
-  //     },
-  //     {
-  //       title: 'Calligrapher.ai: Realistic computer-generated handwriting',
-  //       address: 'https://www.calligrapher.ai/',
-  //     },
-  //     {
-  //       title: 'Trianglify.io · Low Poly Pattern Generator',
-  //       description:
-  //         'Trianglify.io is a tool for generating low poly triangle patterns that can be used as wallpapers and website assets.',
-  //       address: 'https://trianglify.io/',
-  //     },
-  //     {
-  //       title:
-  //         'NEON GENESIS EVANGELION Rei II - 福音战士標題生成器 - Evangelion Title Card Generator - 神奇海螺实验室',
-  //       address: 'https://lab.magiconch.com/eva-title/?layout=eng-title',
-  //     },
-  //     { title: '梗图生成器 - 神奇海螺', address: 'https://x.magiconch.com/' },
-  //     {
-  //       title: 'Create beautiful images of your code',
-  //       description:
-  //         'Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window.',
-  //       address: 'https://www.ray.so/',
-  //     },
-  //     {
-  //       title: '微博切九图 - 微博、朋友圈、空间 切九图 工具 - 在线切九宫格、四宫格 - 神奇海螺',
-  //       description: '在线切九宫格工具',
-  //       address: 'https://v.magiconch.com/sns-image',
-  //     },
-  //     {
-  //       title: 'Hysli.io AI ArtQR 智绘二维码',
-  //       description: '绘制带有彩色绘画的二维码',
-  //       address: 'https://hysli.io/#/projectManagement',
-  //     },
-  //   ],
-  // },
+  // CSS
+  {
+    title: 'CSS Shadow Palette Generator',
+    description: 'Friendly tutorials for developers. Focus on React, CSS, Animation, and more!',
+    address: 'https://www.joshwcomeau.com/shadow-palette/',
+    keywords: ['CSS'],
+  },
+  {
+    title: 'Shape Divider App',
+    description: 'Create fully responsive shape dividers for your next web project',
+    address: 'https://www.shapedivider.app/',
+    keywords: ['CSS'],
+  },
+  {
+    title: 'Animista - On-Demand CSS Animations Library',
+    description:
+      'Animista is a CSS animation library and a place where you can play with a collection of ready-made CSS animations and download only those you will use.',
+    address: 'https://animista.net/',
+    keywords: ['CSS'],
+  },
+  {
+    title: 'CSS3 Generator',
+    description: 'CSS3 Generator',
+    address: 'http://css3generator.com/',
+    keywords: ['CSS'],
+  },
+  {
+    title: 'Fancy Border Radius Generator',
+    description:
+      'A visual generator to build organic looking shapes with the help of CSS3 border-radius property',
+    address: 'https://9elements.github.io/fancy-border-radius/',
+    keywords: ['CSS'],
+  },
+  {
+    title: 'Clippy — CSS clip-path maker',
+    description: 'Shape up your website with CSS clip-paths',
+    address: 'https://bennettfeely.com/clippy/',
+    keywords: ['CSS'],
+  },
+
+  // 图像生成
+  {
+    title: 'Gradient Generator — Create CSS, SVG and PNG color gradients',
+    description:
+      'Use this tool to create linear, radial, and conic gradient backgrounds. Export as CSS, SVG, PNG, and JPEG for use on your website, social media, or wallpaper.',
+    address: 'https://doodad.dev/gradient-generator/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Pattern Generator - Create Seamless, Royalty-Free Patterns',
+    description:
+      'Generate seamless, unique, royalty-free patterns to use for free in any project. Export as SVG, JPEG, or PNG.',
+    address: 'https://doodad.dev/pattern-generator/',
+    keywords: ['图像生成'],
+  },
+
+  {
+    title: 'ASCII Generator',
+    description: 'Generate a ASCII graphic from a word or text. More than 130 fonts.',
+    keywords: ['图像生成'],
+    address: 'http://www.network-science.de/ascii/',
+  },
+  {
+    title: '字符字生成器 - 神奇海螺实验室',
+    description: '字符生成字符字工具，你搁这搁这呢？',
+    address: 'https://magiconch.com/fontfont/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Shields.io',
+    description: 'Concise, consistent, and legible badges',
+    address: 'https://shields.io/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'CSS Sprites Generator Tool',
+    description:
+      'Generate CSS image sprites from multiple images with our easy-to-use uploading tool. Get started for free.',
+    address: 'https://www.toptal.com/developers/css/sprite-generator/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Blobmaker - Make organic SVG shapes for your next design',
+    description:
+      'Make organic SVG shapes for your next design. Modify the complexity, contrast, and color, to generate unique SVG blobs every time.',
+    address: 'https://www.blobmaker.app/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Get Waves – Create SVG waves for your next design',
+    description:
+      'A free SVG wave generator to make unique SVG waves for your next web design. Choose a curve, adjust complexity, randomize!',
+    address: 'https://getwaves.io/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'colorfu',
+    description:
+      'Make beautiful but also meaningful wallpapers. ColorFu is where people can use words, colors, patterns and images to make unique wallpapers to express their feelings or ideas.',
+    address: 'https://pearmini.github.io/colorfu/#/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Video2WebP',
+    description: 'Video2WebP',
+    address: 'https://video2webp.mattj.io/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Notion 风格头像制作',
+    description: '一个生成 Notion 风格头像的在线工具。',
+    address: 'https://notion-avatar.vercel.app/zh',
+    keywords: ['图像生成', '可能需要 VPN'],
+  },
+  {
+    title: 'Calligrapher.ai - Realistic computer-generated handwriting',
+    description:
+      'Implementation of the handwriting synthesis experiments in the paper Generating Sequences with Recurrent Neural Networks by Alex Graves.',
+    address: 'https://www.calligrapher.ai/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Trianglify.io · Low Poly Pattern Generator',
+    description:
+      'Trianglify.io is a tool for generating low poly triangle patterns that can be used as wallpapers and website assets.',
+    address: 'https://trianglify.io/',
+    keywords: ['图像生成'],
+  },
+  {
+    title:
+      'NEON GENESIS EVANGELION Rei II - 福音战士標題生成器 - Evangelion Title Card Generator - 神奇海螺实验室',
+    description: 'Evangelion Title Card Generator',
+    address: 'https://lab.magiconch.com/eva-title/?layout=eng-title',
+    keywords: ['图像生成'],
+  },
+  {
+    title: '梗图生成器 - 神奇海螺',
+    description: '一个支持电子包浆的所见即所得的梗图生成器',
+    address: 'https://x.magiconch.com/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Create beautiful images of your code',
+    description:
+      'Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window.',
+    address: 'https://www.ray.so/',
+    keywords: ['图像生成'],
+  },
+  {
+    title: '微博切九图 - 微博、朋友圈、空间 切九图 工具 - 在线切九宫格、四宫格 - 神奇海螺',
+    description: '在线切九宫格工具',
+    address: 'https://v.magiconch.com/sns-image',
+    keywords: ['图像生成'],
+  },
+  {
+    title: 'Hysli.io',
+    description: '绘制带有彩色绘画的二维码',
+    address: 'https://hysli.io',
+    keywords: ['图像生成'],
+  },
+
   // {
   //   name: '图像处理',
   //   websites: [
@@ -434,38 +466,38 @@ const websites: Website[] = [
     keywords: ['语言'],
   },
 
-  // {
-  //   name: '博客',
-  //   websites: [
-  //     {
-  //       title: '分淼必争',
-  //       description: '心有所向，日复一日，必有精进',
-  //       address: 'https://blog.gutianhuang.red/',
-  //     },
-  //     {
-  //       title: 'Overreacted — A blog by Dan Abramov',
-  //       description: 'Personal blog by Dan Abramov. I explain with words and code.',
-  //       address: 'https://overreacted.io/',
-  //     },
-  //     {
-  //       title: 'JavaScript Rising Stars',
-  //       description:
-  //         'A complete overview of the JavaScript landscape: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management...',
-  //       address: 'https://risingstars.js.org',
-  //     },
-  //     {
-  //       title: '阮一峰的个人网站',
-  //       description: '阮一峰的个人网站',
-  //       address: 'https://www.ruanyifeng.com/',
-  //     },
-  //     { title: 'Anthony Fu', description: "Anthony Fu's Portfolio", address: 'https://antfu.me/' },
-  //     {
-  //       title: 'Josh W Comeau',
-  //       description: 'Friendly tutorials for developers. Focus on React, CSS, Animation, and more!',
-  //       address: 'https://www.joshwcomeau.com/',
-  //     },
-  //   ],
-  // },
+  // 博客
+  {
+    title: '分淼必争',
+    description: '心有所向，日复一日，必有精进',
+    address: 'https://blog.gutianhuang.red/',
+    keywords: ['博客'],
+  },
+  {
+    title: 'Overreacted — A blog by Dan Abramov',
+    description: 'Personal blog by Dan Abramov. I explain with words and code.',
+    address: 'https://overreacted.io/',
+    keywords: ['博客'],
+  },
+  {
+    title: '阮一峰的个人网站',
+    description: '阮一峰的个人网站',
+    address: 'https://www.ruanyifeng.com/',
+    keywords: ['博客'],
+  },
+  {
+    title: 'Anthony Fu',
+    description: "Anthony Fu's Portfolio",
+    address: 'https://antfu.me/',
+    keywords: ['博客'],
+  },
+  {
+    title: 'Josh W Comeau',
+    description: 'Friendly tutorials for developers. Focus on React, CSS, Animation, and more!',
+    address: 'https://www.joshwcomeau.com/',
+    keywords: ['博客'],
+  },
+
   // {
   //   name: '图表',
   //   websites: [
@@ -673,6 +705,15 @@ const websites: Website[] = [
       '前端助手是面向前端开发工程师的资源分享平台，通过工具。文档，游戏，摸鱼，案例等板块，建立一个完整的前端资源体系，提高前端开发者的开发效率，免费造福前端开发者的工具平台',
     address: 'https://web-abin.github.io/abinWeb/',
     keywords: ['导航', '开发'],
+  },
+
+  // 开发
+  {
+    title: 'JavaScript Rising Stars',
+    description:
+      'A complete overview of the JavaScript landscape: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management...',
+    address: 'https://risingstars.js.org',
+    keywords: ['开发'],
   },
 ]
 
