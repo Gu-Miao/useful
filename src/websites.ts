@@ -272,139 +272,155 @@ const websites: Website[] = [
     keywords: ['图像生成'],
   },
 
-  // {
-  //   name: '图像处理',
-  //   websites: [
-  //     {
-  //       title: 'Dither Me This | Online Image Dithering Tool',
-  //       description:
-  //         'Use this tool to reduce image file sizes… but in a stylish, old-school way. Upload an image and Dither Me This will transform it.',
-  //       address: 'https://doodad.dev/dither-me-this/',
-  //     },
-  //     {
-  //       title: '美图秀秀官网_免费在线P图抠图拼图_证件照制作',
-  //       description:
-  //         '美图秀秀P图软件提供图片美化工具、人像美容、添加文字、抠图软件、拼图、批量处理图片大小、证件照换底色、图片压缩等好用的功能，还有海报设计、平面设计、广告设计、贴纸素材、边框等丰富的内容，可制作PPT图片、简历、GIF动图等，支持Windows、Mac、Linux及网页版。',
-  //       address: 'https://pc.meitu.com/',
-  //     },
-  //     {
-  //       title: '电子包浆 图片做旧工具 赛博包浆虚拟器 - 神奇海螺实验室',
-  //       address: 'https://magiconch.com/patina/',
-  //     },
-  //     {
-  //       title: '蒸 気 機 - 蒸汽波 - 蒸汽波图片生成器 - 虚拟信号风格化影像后期工具',
-  //       address: 'https://magiconch.com/vaporwave/',
-  //     },
-  //     {
-  //       title:
-  //         'One Last Image - 卢浮宫生成器 - One Last Kiss 风格 封面生成 图片转线稿 - 神奇海螺实验室',
-  //       description: 'One Last Kiss 卢浮宫生成器 风格 图片转线稿 封面生成 宇多田光 神奇海螺实验室',
-  //       address: 'https://lab.magiconch.com/one-last-image/',
-  //     },
-  //     {
-  //       title: 'cssFilters.co - Custom and Instagram like photo filters for CSS',
-  //       description:
-  //         'Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.',
-  //       address: 'https://www.cssfilters.co/',
-  //     },
-  //     {
-  //       title: 'remove.bg',
-  //       description:
-  //         'remove.bg在线抠图软件轻松实现一键抠图，只需上传图片，无需其他操作，即可100%自动去除图片背景。',
-  //       address: 'https://www.remove.bg/zh',
-  //     },
-  //     {
-  //       title: 'Imglarger Logo',
-  //       description:
-  //         'AI Image Enlarger 是一款免費的在線圖像放大器，可以自動放大和增強小圖像。使 jpg/png 圖片變大而不損失質量。',
-  //       address: 'https://imglarger.com/zh-tw',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: '图像格式转换',
-  //   websites: [
-  //     {
-  //       title: '制作ico图标 | 在线ico图标转换工具 方便制作favicon.ico - 比特虫 - Bitbug.net',
-  //       description:
-  //         '轻松制作ico图标,在线提供ico图标转换工具,可以将jpg、jpeg、gif、png等图像转换成ico图像,方便浏览器制作并生成favicon.ico图标,提供ico图标下载,png to ico,jpg to ico,gif to ico',
-  //       address: 'https://www.bitbug.net/',
-  //     },
-  //     {
-  //       title: 'Convertio — 文件转换器',
-  //       description:
-  //         'Convertio - 在线转换文件的简单工具。支持超过309种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。',
-  //       address: 'https://convertio.co/zh/',
-  //     },
-  //     {
-  //       title: 'TinyPNG – Compress WebP, PNG and JPEG images intelligently',
-  //       description:
-  //         'Make your website faster and save bandwidth. TinyPNG optimizes your WebP, PNG and JPEG images by 50-80% while preserving full transparency!',
-  //       address: 'https://tinypng.com/',
-  //     },
-  //     {
-  //       title: 'PNG转ICO - 在线转换图标文件',
-  //       description:
-  //         'PNG转ICO - 免费在线转换PNG(Portable Network Graphics)文件到ICO(Microsoft icon)文件 - 在线转换图标文件。',
-  //       address: 'https://www.aconvert.com/cn/icon/png-to-ico/',
-  //     },
-  //     {
-  //       title: 'Squoosh',
-  //       description:
-  //         'Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
-  //       address: 'https://squoosh.app/',
-  //     },
-  //     {
-  //       title: 'Convert Image to Base64',
-  //       description: 'Convert Image to Base64',
-  //       address: 'https://image-to-base64.gutianhuang.red/',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: '图片资源',
-  //   websites: [
-  //     {
-  //       title: 'Lexica',
-  //       description: 'The Stable Diffusion search engine',
-  //       address: 'https://lexica.art/',
-  //     },
-  //     { title: '404 Illustrations', address: 'https://error404.fun/' },
-  //     {
-  //       title: 'Beautiful Free Images & Pictures | Unsplash',
-  //       description:
-  //         'Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.',
-  //       address: 'https://unsplash.com/',
-  //       mayNeedVPN: true,
-  //     },
-  //     { title: 'AI-Generated Bible Art', address: 'https://www.openbible.info/labs/ai-bible-art/' },
-  //     {
-  //       title: 'Gradient Hunt - Beautiful Color Gradients',
-  //       description:
-  //         'Thousands of trendy color gradients in a curated collection that is updated daily. Get a fresh color gradient for your next design project and save all the gradients you like.',
-  //       address: 'https://gradienthunt.com/',
-  //     },
-  //     {
-  //       title: 'Dribbble - Discover the World’s Top Designers & Creative Professionals',
-  //       description:
-  //         'Find Top Designers & Creative Professionals on Dribbble. We are where designers gain inspiration, feedback, community, and jobs. Your best resource to discover and connect with designers worldwide.',
-  //       address: 'https://dribbble.com/',
-  //     },
-  //     { title: 'PP制造计划 开源表情包', address: 'https://www.v2fy.com/asset/0i/ChineseBQB/' },
-  //     { title: '百度图像搜索极简版', address: 'https://lab.magiconch.com/baidu-images/' },
-  //   ],
-  // },
-  // {
-  //   name: '视频生成',
-  //   websites: [
-  //     {
-  //       title: 'Shotstack - The Cloud Video Editing API',
-  //       description:
-  //         'Generate, automate, edit and personalise videos, at scale, in the cloud, using the Shotstack video editing API',
-  //       address: 'https://shotstack.io/',
-  //     },
-  //   ],
-  // },
+  // 图片处理
+  {
+    title: 'Dither Me This - Online Image Dithering Tool',
+    description:
+      'Use this tool to reduce image file sizes… but in a stylish, old-school way. Upload an image and Dither Me This will transform it.',
+    address: 'https://doodad.dev/dither-me-this/',
+    keywords: ['图片处理'],
+  },
+  {
+    title: '美图秀秀官网_免费在线P图抠图拼图_证件照制作',
+    description:
+      '美图秀秀P图软件提供图片美化工具、人像美容、添加文字、抠图软件、拼图、批量处理图片大小、证件照换底色、图片压缩等好用的功能，还有海报设计、平面设计、广告设计、贴纸素材、边框等丰富的内容，可制作PPT图片、简历、GIF动图等，支持Windows、Mac、Linux及网页版。',
+    address: 'https://pc.meitu.com/',
+    keywords: ['图片处理'],
+  },
+  {
+    title: '电子包浆 图片做旧工具 赛博包浆虚拟器 - 神奇海螺实验室',
+    description: '给表情赋予年份',
+    address: 'https://magiconch.com/patina/',
+    keywords: ['图片处理'],
+  },
+  {
+    title: '蒸 気 機 - 蒸汽波 - 蒸汽波图片生成器 - 虚拟信号风格化影像后期工具',
+    description: '虚拟信号蒸汽波风格化影像后期工具。',
+    address: 'https://magiconch.com/vaporwave/',
+    keywords: ['图片处理'],
+  },
+  {
+    title:
+      'One Last Image - 卢浮宫生成器 - One Last Kiss 风格 封面生成 图片转线稿 - 神奇海螺实验室',
+    description: 'One Last Kiss 卢浮宫生成器 风格 图片转线稿 封面生成 宇多田光 神奇海螺实验室',
+    address: 'https://lab.magiconch.com/one-last-image/',
+    keywords: ['图片处理'],
+  },
+  {
+    title: 'cssFilters.co - Custom and Instagram like photo filters for CSS',
+    description:
+      'Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.',
+    address: 'https://www.cssfilters.co/',
+    keywords: ['图片处理'],
+  },
+  {
+    title: 'remove.bg',
+    description:
+      'remove.bg在线抠图软件轻松实现一键抠图，只需上传图片，无需其他操作，即可100%自动去除图片背景。',
+    address: 'https://www.remove.bg/zh',
+    keywords: ['图片处理'],
+  },
+  {
+    title: 'Imglarger Logo',
+    description:
+      'AI Image Enlarger 是一款免費的在線圖像放大器，可以自動放大和增強小圖像。使 jpg/png 圖片變大而不損失質量。',
+    address: 'https://imglarger.com/zh-tw',
+    keywords: ['图片处理'],
+  },
+
+  // 图像格式
+  {
+    title: 'Convertio — 文件转换器',
+    description:
+      'Convertio - 在线转换文件的简单工具。支持超过309种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。',
+    address: 'https://convertio.co/zh/',
+    keywords: ['图像格式'],
+  },
+  {
+    title: 'TinyPNG – Compress WebP, PNG and JPEG images intelligently',
+    description:
+      'Make your website faster and save bandwidth. TinyPNG optimizes your WebP, PNG and JPEG images by 50-80% while preserving full transparency!',
+    address: 'https://tinypng.com/',
+    keywords: ['图像格式'],
+  },
+  {
+    title: 'PNG转ICO - 在线转换图标文件',
+    description:
+      'PNG转ICO - 免费在线转换PNG(Portable Network Graphics)文件到ICO(Microsoft icon)文件 - 在线转换图标文件。',
+    address: 'https://www.aconvert.com/cn/icon/png-to-ico/',
+    keywords: ['图像格式'],
+  },
+  {
+    title: 'Squoosh',
+    description:
+      'Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
+    address: 'https://squoosh.app/',
+    keywords: ['图像格式'],
+  },
+  {
+    title: 'Convert Image to Base64',
+    description: 'Convert Image to Base64',
+    address: 'https://image-to-base64.gutianhuang.red/',
+    keywords: ['图像格式'],
+  },
+
+  // 图片资源
+  {
+    title: 'Lexica',
+    description: 'The Stable Diffusion search engine',
+    address: 'https://lexica.art/',
+    keywords: ['图片资源'],
+  },
+  {
+    title: '404 Illustrations',
+    description:
+      'Make a unique journey through 404 error pages on your website Use these illustrations that describe better than words',
+    address: 'https://error404.fun/',
+    keywords: ['图片资源'],
+  },
+  {
+    title: 'Unsplash - Beautiful Free Images & Pictures',
+    description:
+      'Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.',
+    address: 'https://unsplash.com/',
+
+    keywords: ['图片资源'],
+  },
+  {
+    title: 'AI-Generated Bible Art',
+    description: 'All these images were generated by DALL·E 2, an AI that converts text to images.',
+    address: 'https://www.openbible.info/labs/ai-bible-art/',
+    keywords: ['图片资源'],
+  },
+  {
+    title: 'Gradient Hunt - Beautiful Color Gradients',
+    description:
+      'Thousands of trendy color gradients in a curated collection that is updated daily. Get a fresh color gradient for your next design project and save all the gradients you like.',
+    address: 'https://gradienthunt.com/',
+    keywords: ['图片资源'],
+  },
+  {
+    title: 'Dribbble - Discover the World’s Top Designers & Creative Professionals',
+    description:
+      'Find Top Designers & Creative Professionals on Dribbble. We are where designers gain inspiration, feedback, community, and jobs. Your best resource to discover and connect with designers worldwide.',
+    address: 'https://dribbble.com/',
+    keywords: ['图片资源'],
+  },
+  {
+    title: '百度图像搜索极简版',
+    description: '一个极简的百度图片搜索工具！',
+    address: 'https://lab.magiconch.com/baidu-images/',
+    keywords: ['图片资源'],
+  },
+
+  // 视频生成
+  {
+    title: 'Shotstack - The Cloud Video Editing API',
+    description:
+      'Generate, automate, edit and personalise videos, at scale, in the cloud, using the Shotstack video editing API',
+    address: 'https://shotstack.io/',
+    keywords: ['视频生成'],
+  },
 
   // 音频
   {
@@ -415,41 +431,36 @@ const websites: Website[] = [
     keywords: ['音频'],
   },
 
-  // {
-  //   name: '多媒体综合',
-  //   websites: [
-  //     {
-  //       title: 'Vididoo',
-  //       description: 'The simplest way to edit your media files.',
-  //       address: 'https://vididoo.vercel.app/',
-  //       mayNeedVPN: true,
-  //     },
-  //     {
-  //       title: '爱给网_音效配乐_3D模型_视频素材_免费下载',
-  //       description:
-  //         '中国最大的数字娱乐免费素材下载网站,免费提供免费的音效配乐|3D模型|视频|游戏素材资源下载。',
-  //       address: 'https://www.aigei.com/',
-  //     },
-  //     {
-  //       title: 'CloudConvert',
-  //       description:
-  //         '>File converter service - more than 200 different audio, video, document, ebook, archive, image, spreadsheet and presentation formats supported.',
-  //       address: 'https://cloudconvert.com/',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: '搜索引擎',
-  //   websites: [
-  //     {
-  //       title: 'Yep – the private, revenue-sharing search engine',
-  //       description:
-  //         'When you search with Yep, you’re putting actual dollars in the pockets of your favorite content creators.',
-  //       address: 'https://yep.com/',
-  //     },
-  //     { title: 'Neeva - Ad-free, private search', address: 'https://neeva.com/' },
-  //   ],
-  // },
+  // 多媒体综合
+  {
+    title: 'Vididoo',
+    description: 'The simplest way to edit your media files.',
+    address: 'https://vididoo.vercel.app/',
+    keywords: ['多媒体综合', '可能需要 VPN'],
+  },
+  {
+    title: '爱给网_音效配乐_3D模型_视频素材_免费下载',
+    description:
+      '中国最大的数字娱乐免费素材下载网站,免费提供免费的音效配乐|3D模型|视频|游戏素材资源下载。',
+    address: 'https://www.aigei.com/',
+    keywords: ['多媒体综合', '可能需要 VPN'],
+  },
+  {
+    title: 'CloudConvert',
+    description:
+      '>File converter service - more than 200 different audio, video, document, ebook, archive, image, spreadsheet and presentation formats supported.',
+    address: 'https://cloudconvert.com/',
+    keywords: ['多媒体综合', '可能需要 VPN'],
+  },
+
+  // 搜索引擎
+  {
+    title: 'Yep – the private, revenue-sharing search engine',
+    description:
+      'When you search with Yep, you’re putting actual dollars in the pockets of your favorite content creators.',
+    address: 'https://yep.com/',
+    keywords: ['搜索引擎'],
+  },
 
   // 语言
   {
@@ -498,62 +509,77 @@ const websites: Website[] = [
     keywords: ['博客'],
   },
 
-  // {
-  //   name: '图表',
-  //   websites: [
-  //     { title: 'diagram', address: 'https://webdemo.myscript.com/views/diagram/' },
-  //     {
-  //       title: 'Excalidraw+ | Online whiteboard collaboration made easy',
-  //       description:
-  //         'Whiteboarding tool with hand drawn like experience. Ideal for conducting interviews, drawing diagrams, prototypes or sketches and much more!',
-  //       address:
-  //         'https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=banner&utm_campaign=launch',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: 'API',
-  //   websites: [
-  //     {
-  //       title: 'Lorem Picsum',
-  //       description: 'Lorem Ipsum... but for photos',
-  //       address: 'https://picsum.photos/',
-  //     },
-  //     { title: 'Weather Forecast API | Open-Meteo.com', address: 'https://open-meteo.com/en/docs' },
-  //     {
-  //       title: '{placekitten} - Placeholder kitten images for developers',
-  //       description: 'Kitten-themed placeholder images for developers :3',
-  //       address: 'https://placekitten.com/',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: '编程',
-  //   websites: [
-  //     {
-  //       title: 'Regexper',
-  //       description: 'Regular expression visualizer using railroad diagrams',
-  //       address: 'https://regexper.com/',
-  //     },
-  //     {
-  //       title: 'Graphtoy',
-  //       description: 'Graphtoy - easy graphing of functions.',
-  //       address: 'https://graphtoy.com/',
-  //     },
-  //     {
-  //       title: 'AST explorer',
-  //       description: 'An online AST explorer.',
-  //       address: 'https://astexplorer.net/',
-  //     },
-  //     { title: 'nginx playground', address: 'https://nginx-playground.wizardzines.com/' },
-  //     {
-  //       title: 'I18n Translation Search Engine| Free i18n Tools for App&Web',
-  //       description:
-  //         'i18ns provide a free and easy app international translation service, it can be used in android app, ios app or web app i18n translation.',
-  //       address: 'https://i18ns.com/zh/',
-  //     },
-  //   ],
-  // },
+  // 图表
+  {
+    title: 'diagram',
+    description:
+      'Sketch lines and shapes, write your text, preview and export to the Microsoft PowerPoint format.',
+    address: 'https://webdemo.myscript.com/views/diagram/',
+    keywords: ['图表'],
+  },
+  {
+    title: 'Excalidraw+ - Online whiteboard collaboration made easy',
+    description:
+      'Whiteboarding tool with hand drawn like experience. Ideal for conducting interviews, drawing diagrams, prototypes or sketches and much more!',
+    address:
+      'https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=banner&utm_campaign=launch',
+    keywords: ['图表'],
+  },
+
+  // API
+  {
+    title: 'Lorem Picsum',
+    description: 'Lorem Ipsum... but for photos',
+    address: 'https://picsum.photos/',
+    keywords: ['API'],
+  },
+  {
+    title: 'Open-Meteo.com - Free Open-Source Weather API',
+    description:
+      'Weather Forecast APIs with weather models from multiple national weather providers, combining the best models for accurate forecasts worldwide. Explore the API documentation to learn more about the available weather models, their origin countries, resolutions, forecast lengths, and update frequencies. Get detailed JSON hourly weather forecasts for up to 7 or 16 days by specifying the geographical coordinates and desired weather variables in the API endpoint. Discover the comprehensive list of URL parameters for customizing your weather forecast requests.',
+    address: 'https://open-meteo.com/',
+    keywords: ['API'],
+  },
+  {
+    title: '{placekitten} - Placeholder kitten images for developers',
+    description: 'Kitten-themed placeholder images for developers :3',
+    address: 'https://placekitten.com/',
+    keywords: ['API'],
+  },
+
+  // 编程
+  {
+    title: 'Regexper',
+    description: 'Regular expression visualizer using railroad diagrams',
+    address: 'https://regexper.com/',
+    keywords: ['编程'],
+  },
+  {
+    title: 'Graphtoy',
+    description: 'Graphtoy - easy graphing of functions.',
+    address: 'https://graphtoy.com/',
+    keywords: ['编程'],
+  },
+  {
+    title: 'AST explorer',
+    description: 'An online AST explorer.',
+    address: 'https://astexplorer.net/',
+    keywords: ['编程'],
+  },
+  {
+    title: 'nginx playground',
+    description:
+      "It's like codepen for nginx -- you paste in an nginx config, and then a server starts nginx for you and runs any curl or http command you want against that nginx server.",
+    address: 'https://nginx-playground.wizardzines.com/',
+    keywords: ['编程'],
+  },
+  {
+    title: 'I18n Translation Search Engine - Free i18n Tools for App&Web',
+    description:
+      'i18ns provide a free and easy app international translation service, it can be used in android app, ios app or web app i18n translation.',
+    address: 'https://i18ns.com/zh/',
+    keywords: ['编程'],
+  },
 
   {
     title: 'glTF Viewer',
@@ -588,6 +614,28 @@ const websites: Website[] = [
     description: '提供一个主题，生成一段废话',
     address: 'https://sojo.im/slscq/',
     keywords: ['Fun'],
+  },
+  {
+    title: 'Staggering Beauty',
+    description: 'WARNING: CONTAINS FLASHING IMAGES 包含闪烁的图像',
+    address: 'http://www.staggeringbeauty.com/',
+    keywords: ['Fun'],
+  },
+  {
+    title: 'Strobe Illusion - Hallucinate with this amazing optical illusion!',
+    description:
+      'You will hallucinate! This mind-melting optical illusion will warp and distort your vision. Hallucinations without drugs!',
+    address: 'https://strobe.cool/',
+    keywords: ['Fun'],
+  },
+
+  // 音乐
+  {
+    title: '自由钢琴 - AutoPiano - 在线钢琴，键盘钢琴，模拟钢琴，多种乐器选择，好听又好玩',
+    description:
+      '自由钢琴(AutoPiano)是利用HTML5技术开发的在线钢琴应用，致力于为钢琴爱好者、音乐爱好者提供一个优雅、简洁的平台，在学习工作之余可以在线弹钢琴，享受音乐、生活的美好。自由钢琴支持自动演奏和手动演奏，简单易学，快来试试吧~',
+    address: 'https://www.autopiano.cn/',
+    keywords: ['音乐'],
   },
 
   // Web 游戏
