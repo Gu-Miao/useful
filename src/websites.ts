@@ -604,6 +604,26 @@ const websites: Website[] = [
 
   // Fun
   {
+    title: '哔哩哔哩 (゜-゜)つロ 干杯~-bilibili',
+    description:
+      '哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。',
+    address: 'https://www.bilibili.com/',
+    keywords: ['Fun'],
+  },
+  {
+    title: '腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看',
+    description:
+      '腾讯视频致力于打造中国领先的在线视频媒体平台，以丰富的内容、极致的观看体验、便捷的登录方式、多平台无缝应用体验以及快捷分享的产品特性，主要满足用户在线观看视频的需求。',
+    address: 'https://v.qq.com/',
+    keywords: ['Fun'],
+  },
+  {
+    title: '哈哩哈哩官网_halihali_哈哩哈哩动漫',
+    description: 'Halihali.tv: 哈哩哈哩-让你爱不离手的温馨小站(H站)',
+    address: 'http://halihali5.com/',
+    keywords: ['Fun'],
+  },
+  {
     title: '能不能好好说话',
     description: '拼音首字母缩写释义工具',
     address: 'https://lab.magiconch.com/nbnhhsh/',
@@ -636,6 +656,14 @@ const websites: Website[] = [
       '自由钢琴(AutoPiano)是利用HTML5技术开发的在线钢琴应用，致力于为钢琴爱好者、音乐爱好者提供一个优雅、简洁的平台，在学习工作之余可以在线弹钢琴，享受音乐、生活的美好。自由钢琴支持自动演奏和手动演奏，简单易学，快来试试吧~',
     address: 'https://www.autopiano.cn/',
     keywords: ['音乐'],
+  },
+
+  // 游戏
+  {
+    title: 'Welcome to Steam',
+    description: 'games on steam - 欢迎来到 Steam',
+    address: 'https://store.steampowered.com/',
+    keywords: ['游戏', '可能需要 VPN'],
   },
 
   // Web 游戏
@@ -717,6 +745,88 @@ const websites: Website[] = [
     description: '在 web 端玩 DNF，数据与端游互通，有免费时长',
     address: 'https://start.qq.com/game/dnf/',
     keywords: ['DNF', '游戏'],
+  },
+  {
+    title: '沃特碧们的Colg - COLG社区',
+    description:
+      'COLG玩家社区是网游、手游综合资讯站点，同时作为地下城与勇士官方合作资料站，提供DNF国服和韩服的最新爆料、DNF攻略及资料查询，COLG还提供装备流派模拟器、计算器及APP下载，丰厚活动全年不间断，更多DNF及热门游戏内容，就在COLG玩家社区。 ',
+    address: 'https://bbs.colg.cn/',
+    keywords: ['DNF', '游戏'],
+  },
+  {
+    title: '心悦特权 游戏专区 - DNF-官方网站-腾讯游戏-格斗网游王者之作,500万同时在线',
+    description: '心悦会员俱乐部',
+    address: 'https://xinyue.qq.com/act/a20210317dnf/index_pc.html',
+    keywords: ['DNF', '游戏'],
+  },
+
+  // 软件
+  {
+    title: 'Bandisoft - Bandizip, Honeycam, Honeyview',
+    description: 'Home of Bandisoft',
+    address: 'https://www.bandisoft.com/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'Sublime Text - Text Editing, Done Right',
+    description:
+      "Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.",
+    address: 'https://www.sublimetext.com/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'voidtools',
+    description: 'Everything - 基于名称快速定位文件和文件夹。',
+    address: 'https://www.voidtools.com/zh-cn/',
+    keywords: ['软件'],
+  },
+  {
+    title: '网易UU加速器——不止快，还很稳',
+    description:
+      '网易UU加速器，独家自研多项黑科技，提供“不止快，还很稳”的加速服务！为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。',
+    address: 'https://uu.163.com/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'Shadowsocks.com',
+    description: 'Lightweight and fast, take easy and have a nice day.',
+    address: 'https://shadowsocks.nu/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'Redis',
+    description:
+      'Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. Redis provides data structures …',
+    address: 'https://redis.io/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'Topaz Labs - AI Image Quality Software',
+    description:
+      'Photo and video enhancement software powered by deep learning gets you the best image quality available for noise reduction, sharpening, upscaling, and more.',
+    address: 'https://www.topazlabs.com/',
+    keywords: ['软件'],
+  },
+  {
+    title: 'Download AS SSD Benchmark - Alex Intelligent Software',
+    description: '',
+    address:
+      'https://www.alex-is.de/PHP/fusion/infusions/downloads/downloads.php?cat_id=4&download_id=9',
+    keywords: ['软件'],
+  },
+  {
+    title: 'VMware Workstation Pro',
+    description:
+      '借助 VMware Workstation Pro，您可以将多个操作系统作为虚拟机（包括 Windows 虚拟机）在单台 Windows 或 Linux PC 上运行 | VMware CN',
+    address: 'https://www.vmware.com/cn/products/workstation-pro.html',
+    keywords: ['软件'],
+  },
+  {
+    title: 'App news and reviews, best software downloads and discovery - Softonic',
+    description:
+      'Softonic is the place to discover the best applications for your device, offering you reviews, news, articles and free downloads. Welcome to your app guide!',
+    address: 'https://en.softonic.com/',
+    keywords: ['软件'],
   },
 
   // IP
