@@ -518,7 +518,7 @@ const websites: Website[] = [
     keywords: ['图表'],
   },
   {
-    title: 'Excalidraw+ - Online whiteboard collaboration made easy',
+    title: 'Excalidraw - Online whiteboard collaboration made easy',
     description:
       'Whiteboarding tool with hand drawn like experience. Ideal for conducting interviews, drawing diagrams, prototypes or sketches and much more!',
     address:
