@@ -6,10 +6,12 @@ import './App.less'
 
 function App() {
   useEffect(() => {
-    new Masonry('.App ul', {
+    const masonry = new Masonry('.App ul', {
       itemSelector: '.App ul li',
       gutter: 32,
     })
+
+    return () => masonry.destroy && masonry.destroy()
   }, [])
 
   return (

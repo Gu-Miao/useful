@@ -552,35 +552,63 @@ const websites: Website[] = [
     title: 'Regexper',
     description: 'Regular expression visualizer using railroad diagrams',
     address: 'https://regexper.com/',
-    keywords: ['编程'],
+    keywords: ['编程', '正则表达式'],
   },
   {
     title: 'Graphtoy',
     description: 'Graphtoy - easy graphing of functions.',
     address: 'https://graphtoy.com/',
-    keywords: ['编程'],
+    keywords: ['编程', '数学', '可视化', '图形学'],
   },
   {
     title: 'AST explorer',
     description: 'An online AST explorer.',
     address: 'https://astexplorer.net/',
-    keywords: ['编程'],
+    keywords: ['编程', 'AST'],
   },
   {
     title: 'nginx playground',
     description:
       "It's like codepen for nginx -- you paste in an nginx config, and then a server starts nginx for you and runs any curl or http command you want against that nginx server.",
     address: 'https://nginx-playground.wizardzines.com/',
-    keywords: ['编程'],
+    keywords: ['编程', 'NGINX'],
   },
   {
     title: 'I18n Translation Search Engine - Free i18n Tools for App&Web',
     description:
       'i18ns provide a free and easy app international translation service, it can be used in android app, ios app or web app i18n translation.',
     address: 'https://i18ns.com/zh/',
-    keywords: ['编程'],
+    keywords: ['编程', 'I18N'],
+  },
+  {
+    title: 'JavaScript Rising Stars',
+    description:
+      'A complete overview of the JavaScript landscape: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management...',
+    address: 'https://risingstars.js.org',
+    keywords: ['编程', '前端', 'JavaScript', '博客'],
+  },
+  {
+    title: '前端助手',
+    description:
+      '前端助手是面向前端开发工程师的资源分享平台，通过工具。文档，游戏，摸鱼，案例等板块，建立一个完整的前端资源体系，提高前端开发者的开发效率，免费造福前端开发者的工具平台',
+    address: 'https://web-abin.github.io/abinWeb/',
+    keywords: ['导航', '编程'],
+  },
+  {
+    title: 'Unicode 符号表 SYMBL',
+    description:
+      'Unicode (萬國碼、國際碼、統一碼) 字符搜索Web服务。 查找并复制您最喜欢的角色：😎表情符号，▶Ar箭头，✪星星，💲货币，🈂️书写系统等🚩',
+    address: 'https://symbl.cc/cn/unicode/table/',
+    keywords: ['编程', 'Unicode'],
+  },
+  {
+    title: 'cryptography',
+    description: 'Online Cryptography Toolbox',
+    address: 'https://crypto-online.cn/',
+    keywords: ['编程', '加密'],
   },
 
+  // 3D
   {
     title: 'glTF Viewer',
     description: 'Drag-and-drop preview tool for glTF 2.0 3D models.',
@@ -665,38 +693,36 @@ const websites: Website[] = [
     address: 'https://store.steampowered.com/',
     keywords: ['游戏', '可能需要 VPN'],
   },
-
-  // Web 游戏
   {
     title: '合成北宇治',
     description: '俄罗斯方块似的消除游戏',
     address: 'https://magiconch.com/mix-eupho/',
-    keywords: ['Web 游戏'],
+    keywords: ['游戏', 'web'],
   },
   {
     title: '绘谜',
     description:
       '支持 断线重连、无限撤销、压感笔刷、智能提示、只能参考、画廊投稿、导出视频 的在线多人你画我猜 ',
     address: 'https://enazo.cn/',
-    keywords: ['Web 游戏'],
+    keywords: ['游戏', 'web'],
   },
   {
     title: 'slow roads',
     description: 'endless driving zen in your browser',
     address: 'https://slowroads.io/',
-    keywords: ['Web 游戏'],
+    keywords: ['游戏', 'web'],
   },
   {
     title: 'Sheep Fucking Sheep',
     description: 'A simple elimination game',
     address: 'https://sheep-fucking-sheep.gutianhuang.red/',
-    keywords: ['Web 游戏'],
+    keywords: ['游戏', 'web'],
   },
   {
     title: 'PCOL - SNOOKER',
     description: 'Play high quality Snooker game now just in your browser.',
     address: 'http://www.heyzxz.me/pcol/',
-    keywords: ['Web 游戏'],
+    keywords: ['游戏', 'web'],
   },
 
   // 魂系列
@@ -856,22 +882,94 @@ const websites: Website[] = [
     keywords: ['AI'],
   },
 
-  // 导航
+  // 翻译
   {
-    title: '前端助手',
+    title: '网易有道',
     description:
-      '前端助手是面向前端开发工程师的资源分享平台，通过工具。文档，游戏，摸鱼，案例等板块，建立一个完整的前端资源体系，提高前端开发者的开发效率，免费造福前端开发者的工具平台',
-    address: 'https://web-abin.github.io/abinWeb/',
-    keywords: ['导航', '开发'],
+      '网易有道是中国领先的智能学习公司，致力于提供100%以用户为导向的学习产品和服务。有道成立于2006年，打造了一系列深受用户喜欢的口碑型大众学习工具产品，例如：网易有道词典、有道精品课、有道翻译官、有道云笔记等。2014年，网易有道宣布正式进军互联网教育行业。2018年4月，网易有道完成首次战略融资，投后估值11.2亿美金，跻身独角兽阵营。2019年10月，网易有道成功登陆纽交所，股票代码为“DAO”，成为网易集团首个独立上市的公司。',
+    address: 'https://www.youdao.com/',
+    keywords: ['翻译'],
+  },
+  {
+    title: '百度翻译-200种语言互译、沟通全世界',
+    description:
+      '百度翻译提供即时免费200+语言翻译服务，拥有网页、APP、API产品，支持文本翻译、文档翻译、图片翻译等特色功能，满足用户查词翻译、文献翻译、合同翻译等需求，随时随地沟通全世界',
+    address: 'https://fanyi.baidu.com/',
+    keywords: ['翻译'],
   },
 
-  // 开发
+  // 邮箱
   {
-    title: 'JavaScript Rising Stars',
+    title: '登录QQ邮箱',
     description:
-      'A complete overview of the JavaScript landscape: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management...',
-    address: 'https://risingstars.js.org',
-    keywords: ['开发'],
+      'QQ邮箱，为亿万用户提供高效稳定便捷的电子邮件服务。你可以在电脑网页、iOS/iPad客户端、及Android客户端上使用它，通过邮件发送3G的超大附件，体验文件中转站、日历、记事本、漂流瓶等特色功能。QQ邮箱，常联系。',
+    address: 'https://wx.mail.qq.com/?cancel_login=true&from=upexpected_login_redirect',
+    keywords: ['邮箱'],
+  },
+
+  // 下载
+  {
+    title: '微博秒拍视频下载',
+    description: '微博视频下载,秒拍视频下载,视频在线下载工具,批量视频解析下载,视频下载工具',
+    address: 'https://weibomiaopai.com/',
+    keywords: ['下载', '视频'],
+  },
+
+  //
+  {
+    title: 'Datawrapper: Create charts, maps, and tables',
+    description:
+      'Create interactive, responsive & beautiful data visualizations with the online tool Datawrapper — no code required. Used by the UN, New York Times, SPIEGEL, and more.',
+    address: 'https://www.datawrapper.de/',
+    keywords: ['可视化', '数据', '可以登录'],
+  },
+
+  // 数学
+  {
+    title: 'Microsoft数学求解器-数学问题求解器和计算器',
+    description:
+      '在线数学求解器，为你免费解答代数，微积分等数学问题。浏览在线网页或下载数学求解器app获取帮助。',
+    address: 'https://mathsolver.microsoft.com/zh',
+    keywords: ['数学'],
+  },
+  { title: 'MathB.in - Share Mathematics with LaTeX and Markdown', address: 'https://mathb.in/1' },
+
+  // 声音
+  {
+    title: 'Web Captioner is sunsetting October 31, 2023 - Alternatives, open sourcing',
+    description: 'Free, real-time captioning for your event.',
+    address: 'https://webcaptioner.com/',
+    keywords: ['声音', '开源'],
+  },
+  {
+    title: 'Introducing Peregrine: Realistic Text to Speech Model with Emotion',
+    description:
+      'Play.ht introduces realistic AI Text to Speech voice models that can express emotions and laughter. Create engaging voiceovers from text.',
+    address:
+      'https://play.ht/blog/introducing-truly-realistic-text-to-speech-with-emotion-and-laughter/',
+    keywords: ['声音'],
+  },
+  {
+    title: 'Adobe Podcast | AI audio recording and editing, all on the web',
+    description:
+      'Next generation audio from Adobe is here. Record, transcribe, edit, share. Crisp and clear, every time.',
+    address: 'https://podcast.adobe.com/',
+    keywords: ['声音'],
+  },
+  {
+    title: 'AI Music Generator - SOUNDRAW',
+    description: 'Your personal AI music generator.',
+    address: 'https://soundraw.io/create_music',
+    keywords: ['声音', 'AI'],
+  },
+
+  // 工具
+  {
+    title: '帮小忙，腾讯QQ浏览器在线工具箱平台',
+    description:
+      '帮小忙，腾讯QQ浏览器在线工具箱平台，提供证件照生成，表情包制作，PDF转换，文字提取，二维码生成，数据校验、照片修复、插件安装等在线服务，让你无忧生活。帮小忙-全部分类工具',
+    address: 'https://tool.browser.qq.com/',
+    keywords: ['工具'],
   },
 ]
 
