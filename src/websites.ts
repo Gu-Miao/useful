@@ -509,13 +509,13 @@ const websites: Website[] = [
     keywords: ['博客'],
   },
 
-  // 图表
+  // 画板
   {
     title: 'diagram',
     description:
       'Sketch lines and shapes, write your text, preview and export to the Microsoft PowerPoint format.',
-    address: 'https://webdemo.myscript.com/views/diagram/',
-    keywords: ['图表'],
+    address: 'https://webdemo.myscript.com/views/diagram/index.html#/',
+    keywords: ['画板'],
   },
   {
     title: 'Excalidraw - Online whiteboard collaboration made easy',
@@ -523,7 +523,14 @@ const websites: Website[] = [
       'Whiteboarding tool with hand drawn like experience. Ideal for conducting interviews, drawing diagrams, prototypes or sketches and much more!',
     address:
       'https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=banner&utm_campaign=launch',
-    keywords: ['图表'],
+    keywords: ['画板'],
+  },
+  {
+    title: 'paint-board',
+    description:
+      'Canvas based drawing board, including free drawing, eraser, text, select, layer, undo, redo, clear, save, drag',
+    address: 'https://songlh.top/paint-board/',
+    keywords: ['画板'],
   },
 
   // API
@@ -915,9 +922,9 @@ const websites: Website[] = [
     keywords: ['下载', '视频'],
   },
 
-  //
+  // 可视化
   {
-    title: 'Datawrapper: Create charts, maps, and tables',
+    title: 'Datawrapper - Create charts, maps, and tables',
     description:
       'Create interactive, responsive & beautiful data visualizations with the online tool Datawrapper — no code required. Used by the UN, New York Times, SPIEGEL, and more.',
     address: 'https://www.datawrapper.de/',
@@ -932,17 +939,23 @@ const websites: Website[] = [
     address: 'https://mathsolver.microsoft.com/zh',
     keywords: ['数学'],
   },
-  { title: 'MathB.in - Share Mathematics with LaTeX and Markdown', address: 'https://mathb.in/1' },
+  {
+    title: 'MathB.in - Share Mathematics with LaTeX and Markdown',
+    address: 'https://mathb.in/1',
+    description:
+      '[MathB.in] is a website meant for sharing snippets of mathematical text with others on the web.',
+    keywords: ['数学'],
+  },
+  {
+    title: 'GeoGebra - 风靡世界, 过亿师生沉迷使用的免费数学软件',
+    description: '免费的课堂活动数字工具, 用于绘图计算, 几何作图, 白板协作等等',
+    address: 'https://www.geogebra.org/',
+    keywords: ['数学'],
+  },
 
   // 声音
   {
-    title: 'Web Captioner is sunsetting October 31, 2023 - Alternatives, open sourcing',
-    description: 'Free, real-time captioning for your event.',
-    address: 'https://webcaptioner.com/',
-    keywords: ['声音', '开源'],
-  },
-  {
-    title: 'Introducing Peregrine: Realistic Text to Speech Model with Emotion',
+    title: 'Introducing Peregrine - Realistic Text to Speech Model with Emotion',
     description:
       'Play.ht introduces realistic AI Text to Speech voice models that can express emotions and laughter. Create engaging voiceovers from text.',
     address:
@@ -950,7 +963,7 @@ const websites: Website[] = [
     keywords: ['声音'],
   },
   {
-    title: 'Adobe Podcast | AI audio recording and editing, all on the web',
+    title: 'Adobe Podcast - AI audio recording and editing, all on the web',
     description:
       'Next generation audio from Adobe is here. Record, transcribe, edit, share. Crisp and clear, every time.',
     address: 'https://podcast.adobe.com/',
