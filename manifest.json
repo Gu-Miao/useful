@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "0.1",
+  "name": "GuTianhuang Useful",
+  "author": "GuTianhuang",
+  "description": "Useful websites of image resource, tools, free api, blogs etc...",
+  "action": {
+    "default_title": "Useful",
+    "default_icon": "dist/logo.png"
+  },
+  "icons": {
+    "16": "dist/logo.png",
+    "32": "dist/logo.png",
+    "48": "dist/logo.png",
+    "128": "dist/logo.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "dist/index.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}

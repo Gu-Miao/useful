@@ -10,6 +10,7 @@ function joinPath(path: string) {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [
     react(),
     eslint({

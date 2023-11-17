@@ -6,7 +6,7 @@ function Card(props: Website) {
   return (
     <ExLink className="Card" href={props.address}>
       <div className="thum">
-        <img src={`/${props.title}.webp`} alt={props.title} />
+        <img src={`./${props.title}.webp`} alt={props.title} />
       </div>
       <div className="title">{props.title}</div>
       <div className="desc">{props.description}</div>
