@@ -976,6 +976,15 @@ const websites: Website[] = [
     keywords: ['声音', 'AI'],
   },
 
+  // PDF
+  {
+    title: 'Sejda helps with your PDF tasks',
+    description:
+      'Sejda helps with your PDF tasks. Quick and simple online service, no installation required! Split, merge or convert PDF to images, alternate mix or split scans and many other.',
+    address: 'https://www.sejda.com/',
+    keywords: ['PDF'],
+  },
+
   // 工具
   {
     title: '帮小忙，腾讯QQ浏览器在线工具箱平台',
