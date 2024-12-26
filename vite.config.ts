@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import eslint from '@nabla/vite-plugin-eslint'
 import { createHtmlPlugin } from 'vite-plugin-html'
+
 import { fileURLToPath, URL } from 'node:url'
 
 function joinPath(path: string) {
@@ -18,10 +19,23 @@ export default defineConfig({
         cacheLocation: joinPath('node_modules/.eslintcache'),
       },
     }),
-    createHtmlPlugin({
-      minify: true,
-    }),
+    createHtmlPlugin({ minify: true }),
   ],
+  server: {
+    open: false,
+    port: 8025,
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
+        },
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': joinPath('src'),

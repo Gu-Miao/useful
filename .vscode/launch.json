@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "运行项目",
+      "url": "http://localhost:8025",
+      "webRoot": "${workspaceFolder}/src",
+      "preLaunchTask": "npm: start",
+      "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "userDataDir": "${env:USERPROFILE}\\AppData\\Local\\Google\\Chrome\\User Data",
+      "serverReadyAction": {
+        "pattern": "started server on .*:8025",
+        "action": "debugWithChrome",
+        "uriFormat": "http://localhost:8025"
+      }
+    }
+  ]
+}
