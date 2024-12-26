@@ -993,6 +993,12 @@ const websites: Website[] = [
     address: 'https://tool.browser.qq.com/',
     keywords: ['工具'],
   },
+  {
+    title: '电子发票提取助手',
+    description: '在线的免费的发票提取工具，支持电子发票一键批量提取到Excel表中。',
+    address: 'https://airegex.cn/',
+    keywords: ['工具', '发票'],
+  },
 ]
 
 export default websites
