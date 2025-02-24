@@ -698,7 +698,13 @@ const websites: Website[] = [
     title: 'Welcome to Steam',
     description: 'games on steam - 欢迎来到 Steam',
     address: 'https://store.steampowered.com/',
-    keywords: ['游戏', '可能需要 VPN'],
+    keywords: ['游戏', '游戏综合网站', '可能需要 VPN'],
+  },
+  {
+    title: '朝游夕拾—全球游戏试玩中心',
+    description: '本站提供包括单机游戏 STEAM游戏 mac游戏 分享下载，每日更新最新热门游戏资源',
+    address: 'https://zhaoyouxishi.vip/',
+    keywords: ['游戏', '游戏综合网站'],
   },
   {
     title: '合成北宇治',
@@ -974,6 +980,13 @@ const websites: Website[] = [
     description: 'Your personal AI music generator.',
     address: 'https://soundraw.io/create_music',
     keywords: ['声音', 'AI'],
+  },
+  {
+    title: '语音转文字,录音转文字,语音识别– 在线语音转换文字软件 - 迅捷PDF转换器在线免费版',
+    description:
+      '迅捷在线语音转文字转换器,提供语音转文字、录音转文字等语音识别功能,支持的格式包括MP3、M4A、AAC、FLAC、APE、WAV等,是个非常实用的语音转换文字软件.',
+    address: 'https://app.xunjiepdf.com/ja/voice2text/',
+    keywords: ['声音', '转换'],
   },
 
   // PDF
