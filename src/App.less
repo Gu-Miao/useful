@@ -18,38 +18,87 @@ body {
 .App {
   width: auto;
   padding: 1em;
+}
 
-  header {
-    text-align: center;
-    margin-bottom: 4em;
+header {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-
-  h1 {
-    font-size: 5em;
-    margin-bottom: -0.1em;
+  100% {
+    opacity: 1;
   }
+}
 
-  ul {
-    width: 85%;
-    margin: 0 auto;
+.fadeIn(@duration: 0.5s, @delay: 0) {
+  opacity: 0;
+  animation: fadeIn linear forwards;
+  animation-duration: @duration;
+  animation-delay: @delay;
+}
 
-    @media (min-width: 44em) {
-      width: 42em;
-      li {
-        width: 20em;
-      }
+h1 {
+  font-size: 5em;
+  margin-bottom: -0.1em;
+  .fadeIn(0.75s);
+}
+
+p {
+  font-size: 1.2em;
+  .fadeIn(0.65s, 0.2s);
+}
+
+p:nth-child(3) {
+  .fadeIn(0.5s, 0.5s);
+}
+
+.b {
+  color: #333;
+}
+
+ul {
+  width: 85%;
+  margin: 0 auto;
+
+  @media (min-width: 44em) {
+    width: 42em;
+    li {
+      width: 20em;
     }
-    @media (min-width: 66em) {
-      width: 64em;
-    }
-    @media (min-width: 88em) {
-      width: 86em;
-    }
   }
+  @media (min-width: 66em) {
+    width: 64em;
+  }
+  @media (min-width: 88em) {
+    width: 86em;
+  }
+}
 
-  li {
-    width: 100%;
-    display: block;
-    margin-bottom: 2em;
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.moveIn(@duration: 0.5s, @delay: 0) {
+  opacity: 0;
+  animation: moveIn linear forwards;
+  animation-duration: @duration;
+  animation-delay: @delay;
+}
+
+li {
+  width: 100%;
+  display: block;
+  margin-bottom: 2em;
+  .moveIn(0.5s, var(--animation-delay));
 }
