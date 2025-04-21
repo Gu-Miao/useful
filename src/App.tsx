@@ -6,15 +6,6 @@ import './App.less'
 
 function App() {
   useEffect(() => {
-    const masonry = new Masonry('.App ul', {
-      itemSelector: '.App ul li',
-      gutter: 32,
-    })
-
-    return () => masonry.destroy && masonry.destroy()
-  }, [])
-
-  useEffect(() => {
     const $ul = document.querySelector('.App ul') as HTMLUListElement
     const $li = $ul.querySelectorAll('li') as NodeListOf<HTMLLIElement>
     $li.forEach(($el, i) =>
@@ -23,6 +14,15 @@ function App() {
     $ul.style.display = ''
 
     return () => {}
+  }, [])
+
+  useEffect(() => {
+    const masonry = new Masonry('.App ul', {
+      itemSelector: '.App ul li',
+      gutter: 32,
+    })
+
+    return () => masonry.destroy && masonry.destroy()
   }, [])
 
   return (
