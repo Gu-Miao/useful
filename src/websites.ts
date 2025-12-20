@@ -636,6 +636,13 @@ const websites: Website[] = [
     address: 'https://www.3d66.com/',
     keywords: ['3D'],
   },
+  {
+    title: 'iCraft Editor - 人人都能轻松上手的 3D 场景设计平台',
+    description:
+      'iCraft 是一个在线 3D 信息图、场景图设计平台，用 iCraft 轻松快速构建 3D 架构图、流程图、产品演示和 3D 信息场景，让你的想法更直观、出色。既可可视化展示，也可作为前端组件直接集成。',
+    address: 'https://icraft.gantcloud.com/',
+    keywords: ['3D'],
+  },
 
   // Fun
   {
