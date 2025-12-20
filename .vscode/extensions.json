@@ -2,7 +2,7 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "mikestead.dotenv",
+    "dotenv.dotenv-vscode",
     "yoavbls.pretty-ts-errors",
     "editorconfig.editorconfig"
   ]
