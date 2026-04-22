@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
-import eslint from '@nabla/vite-plugin-eslint'
-import { createHtmlPlugin } from 'vite-plugin-html'
-
 import { fileURLToPath, URL } from 'node:url'
+import babel from '@rolldown/plugin-babel'
+import react, { reactCompilerPreset } from '@vitejs/plugin-react'
+
+import { defineConfig } from 'vite'
+import { createHtmlPlugin } from 'vite-plugin-html'
 
 function joinPath(path: string) {
   return fileURLToPath(new URL(path, import.meta.url))
@@ -14,17 +14,10 @@ export default defineConfig({
   base: './',
   plugins: [
     react(),
-    eslint({
-      eslintOptions: {
-        cacheLocation: joinPath('node_modules/.eslintcache'),
-      },
-    }),
+    babel({ presets: [reactCompilerPreset()] }),
     createHtmlPlugin({ minify: true }),
   ],
-  server: {
-    open: false,
-    port: 8025,
-  },
+  server: { open: false, port: 8025 },
   build: {
     rollupOptions: {
       output: {
@@ -36,9 +29,5 @@ export default defineConfig({
       },
     },
   },
-  resolve: {
-    alias: {
-      '@': joinPath('src'),
-    },
-  },
+  resolve: { alias: { '@': joinPath('src') } },
 })

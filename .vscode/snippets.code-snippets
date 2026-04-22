@@ -19,12 +19,12 @@
     "scope": "vue,javascript,typescript",
     "prefix": "cl",
     "body": "console.log('$1', $2)$0",
-    "description": "打印信息",
+    "description": "打印信息"
   },
   "console.error": {
     "scope": "vue,javascript,typescript",
     "prefix": "ce",
     "body": "console.error(e)$0",
-    "description": "打印错误",
-  },
+    "description": "打印错误"
+  }
 }

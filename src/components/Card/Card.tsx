@@ -1,5 +1,5 @@
-import { type Website } from '@/websites'
 import ExLink from '@/components/ExLink'
+import type { Website } from '@/websites'
 import './Card.less'
 
 function Card(props: Website) {

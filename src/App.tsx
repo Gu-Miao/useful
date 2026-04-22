@@ -1,16 +1,16 @@
+import Masonry from 'masonry-layout'
 import { useEffect } from 'react'
 import Card from './components/Card/Card'
 import websites from './websites'
-import Masonry from 'masonry-layout'
 import './App.less'
 
 function App() {
   useEffect(() => {
     const $ul = document.querySelector('.App ul') as HTMLUListElement
     const $li = $ul.querySelectorAll('li') as NodeListOf<HTMLLIElement>
-    $li.forEach(($el, i) =>
-      $el.style.setProperty('--animation-delay', `${Math.min(i * 0.1, 2.25)}s`),
-    )
+    $li.forEach(($el, i) => {
+      $el.style.setProperty('--animation-delay', `${Math.min(i * 0.1, 2.25)}s`)
+    })
     $ul.style.display = ''
 
     return () => {}
@@ -22,7 +22,7 @@ function App() {
       gutter: 32,
     })
 
-    return () => masonry.destroy && masonry.destroy()
+    return () => masonry.destroy?.()
   }, [])
 
   return (

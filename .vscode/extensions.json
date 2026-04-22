@@ -1,9 +1,3 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "mikestead.dotenv",
-    "yoavbls.pretty-ts-errors",
-    "editorconfig.editorconfig"
-  ]
+  "recommendations": ["yoavbls.pretty-ts-errors", "editorconfig.editorconfig", "biomejs.biome"]
 }
