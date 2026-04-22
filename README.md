@@ -2,6 +2,15 @@
 
 按 `src/websites.ts` 注释分类整理的网站清单（不含图片）。
 
+## 技术栈
+
+- `React`
+- `TypeScript`
+- `Vite`
+- `Less`
+- `Biome`
+- `Bun`
+
 ## Colors
 
 - [Flat UI Colors](https://flatuicolors.com/)

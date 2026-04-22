@@ -29,9 +29,9 @@ function App() {
     <div className="App">
       <header>
         <h1>Useful</h1>
-        <p>Useful websites of image resource, tools, free api, blogs etc...</p>
+        <p>收录常用的网站资源，涵盖图片、工具、免费 API、博客等内容。</p>
         <p>
-          Use <b>Ctrl + F</b> to search.
+          使用 <b>Ctrl + F</b> 快速搜索。
         </p>
       </header>
       <ul style={{ display: 'none' }}>
