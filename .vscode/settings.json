@@ -1,24 +1,23 @@
 {
-  "npm.packageManager": "pnpm",
+  "npm.packageManager": "bun",
+
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.*.json, *.d.ts",
-    ".env.dev": ".env.*",
-    "package.json": "package-lock.json, pnpm*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .browserslistrc, .git*, .lintstagedrc.*"
+    "package.json": "package-lock.json, bun.lock*, .editorconfig, .browserslistrc, .git*, .lintstagedrc.*, biome*"
   },
 
   "files.eol": "\n",
 
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": { "source.fixAll": "explicit" },
+
   "prettier.enable": false,
   "eslint.enable": false,
   "eslint.format.enable": false,
   "oxc.enable": false,
+
   "[javascriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -46,7 +45,9 @@
   "[vue]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+
   "typescript.tsdk": "node_modules\\typescript\\lib",
+
   "css.lint.unknownAtRules": "ignore",
   "less.lint.unknownAtRules": "ignore"
 }
