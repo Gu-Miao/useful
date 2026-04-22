@@ -2,6 +2,7 @@
   "name": "useful",
   "description": "Useful websites of image resource, tools, free api, blogs etc...",
   "type": "module",
+  "packageManager": "bun@1.3.13",
   "scripts": {
     "start": "vite",
     "build": "vite build",
