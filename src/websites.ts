@@ -6,7 +6,6 @@ export type Website = {
 }
 
 const websites: Website[] = [
-  // Colors
   {
     title: 'Flat UI Colors',
     description: '280 handpicked colors ready for COPY & PASTE',
@@ -43,7 +42,6 @@ const websites: Website[] = [
     address: 'https://www.sioe.cn/yingyong/yanse-rgb-16/',
     keywords: ['颜色'],
   },
-  // Icons
   {
     title: 'iconfont',
     description:
@@ -109,7 +107,6 @@ const websites: Website[] = [
     address: 'https://tobiasahlin.com/spinkit/',
     keywords: ['图标', 'CSS'],
   },
-  // CSS
   {
     title: 'CSS Shadow Palette Generator',
     description: 'Friendly tutorials for developers. Focus on React, CSS, Animation, and more!',
@@ -148,7 +145,6 @@ const websites: Website[] = [
     address: 'https://bennettfeely.com/clippy/',
     keywords: ['CSS'],
   },
-  // 图像生成
   {
     title: 'Gradient Generator — Create CSS, SVG and PNG color gradients',
     description:
@@ -267,7 +263,6 @@ const websites: Website[] = [
     address: 'https://hysli.io',
     keywords: ['图像生成'],
   },
-  // 图片处理
   {
     title: 'Dither Me This - Online Image Dithering Tool',
     description:
@@ -322,7 +317,6 @@ const websites: Website[] = [
     address: 'https://imglarger.com/zh-tw',
     keywords: ['图片处理'],
   },
-  // 图像格式
   {
     title: 'Convertio — 文件转换器',
     description:
@@ -357,7 +351,6 @@ const websites: Website[] = [
     address: 'https://image-to-base64.gutianhuang.red/',
     keywords: ['图像格式'],
   },
-  // 图片资源
   {
     title: 'Lexica',
     description: 'The Stable Diffusion search engine',
@@ -404,7 +397,6 @@ const websites: Website[] = [
     address: 'https://lab.magiconch.com/baidu-images/',
     keywords: ['图片资源'],
   },
-  // 视频生成
   {
     title: 'Shotstack - The Cloud Video Editing API',
     description:
@@ -412,7 +404,6 @@ const websites: Website[] = [
     address: 'https://shotstack.io/',
     keywords: ['视频生成'],
   },
-  // 音频
   {
     title: 'musicForProgramming',
     description:
@@ -420,7 +411,6 @@ const websites: Website[] = [
     address: 'https://musicforprogramming.net/',
     keywords: ['音频'],
   },
-  // 多媒体综合
   {
     title: 'Vididoo',
     description: 'The simplest way to edit your media files.',
@@ -441,7 +431,6 @@ const websites: Website[] = [
     address: 'https://cloudconvert.com/',
     keywords: ['多媒体综合', '可能需要 VPN'],
   },
-  // 搜索引擎
   {
     title: 'Yep – the private, revenue-sharing search engine',
     description:
@@ -449,7 +438,6 @@ const websites: Website[] = [
     address: 'https://yep.com/',
     keywords: ['搜索引擎'],
   },
-  // 语言
   {
     title: '多邻国',
     description: '人人都可免费使用多邻国的网站和移动应用。小口小口啃中文（粤语），科学又有趣！',
@@ -463,7 +451,6 @@ const websites: Website[] = [
     address: 'https://qwerty.kaiyi.cool/',
     keywords: ['语言'],
   },
-  // 博客
   {
     title: '分淼必争',
     description: '心有所向，日复一日，必有精进',
@@ -494,7 +481,6 @@ const websites: Website[] = [
     address: 'https://www.joshwcomeau.com/',
     keywords: ['博客'],
   },
-  // 画板
   {
     title: 'diagram',
     description:
@@ -517,7 +503,6 @@ const websites: Website[] = [
     address: 'https://songlh.top/paint-board/',
     keywords: ['画板'],
   },
-  // API
   {
     title: 'Lorem Picsum',
     description: 'Lorem Ipsum... but for photos',
@@ -537,7 +522,6 @@ const websites: Website[] = [
     address: 'https://placekitten.com/',
     keywords: ['API'],
   },
-  // 编程
   {
     title: 'Regexper',
     description: 'Regular expression visualizer using railroad diagrams',
@@ -597,7 +581,6 @@ const websites: Website[] = [
     address: 'https://crypto-online.cn/',
     keywords: ['编程', '加密'],
   },
-  // 3D
   {
     title: 'glTF Viewer',
     description: 'Drag-and-drop preview tool for glTF 2.0 3D models.',
@@ -625,7 +608,6 @@ const websites: Website[] = [
     address: 'https://icraft.gantcloud.com/',
     keywords: ['3D'],
   },
-  // Fun
   {
     title: '哔哩哔哩 (゜-゜)つロ 干杯~-bilibili',
     description:
@@ -671,7 +653,6 @@ const websites: Website[] = [
     address: 'https://strobe.cool/',
     keywords: ['Fun'],
   },
-  // 音乐
   {
     title: '自由钢琴 - AutoPiano - 在线钢琴，键盘钢琴，模拟钢琴，多种乐器选择，好听又好玩',
     description:
@@ -679,7 +660,6 @@ const websites: Website[] = [
     address: 'https://www.autopiano.cn/',
     keywords: ['音乐'],
   },
-  // 游戏
   {
     title: 'Welcome to Steam',
     description: 'games on steam - 欢迎来到 Steam',
@@ -723,7 +703,6 @@ const websites: Website[] = [
     address: 'http://www.heyzxz.me/pcol/',
     keywords: ['游戏', 'web'],
   },
-  // 魂系列
   {
     title: 'SoulsPlanner',
     description:
@@ -750,7 +729,6 @@ const websites: Website[] = [
     address: 'https://www.elpwc.com/eldenringmap/',
     keywords: ['魂系列', '游戏'],
   },
-  // DNF
   {
     title: '无名空岛',
     description: '无名空岛 | 一个与DNF有缘的小岛',
@@ -782,7 +760,6 @@ const websites: Website[] = [
     address: 'https://xinyue.qq.com/act/a20210317dnf/index_pc.html',
     keywords: ['DNF', '游戏'],
   },
-  // 软件
   {
     title: 'Bandisoft - Bandizip, Honeycam, Honeyview',
     description: 'Home of Bandisoft',
@@ -850,7 +827,6 @@ const websites: Website[] = [
     address: 'https://en.softonic.com/',
     keywords: ['软件'],
   },
-  // IP
   {
     title: 'IPAddress',
     description:
@@ -858,7 +834,6 @@ const websites: Website[] = [
     address: 'https://www.ipaddress.com/',
     keywords: ['IP'],
   },
-  // 虚拟
   {
     title: 'SMS-Activate',
     description:
@@ -866,7 +841,6 @@ const websites: Website[] = [
     address: 'https://sms-activate.org/',
     keywords: ['虚拟', '可能需要 VPN', '付费', '需要账号'],
   },
-  // AI
   {
     title: '文心一言',
     description:
@@ -887,7 +861,6 @@ const websites: Website[] = [
     address: 'https://www.deepseek.com/',
     keywords: ['AI'],
   },
-  // 翻译
   {
     title: '网易有道',
     description:
@@ -902,7 +875,6 @@ const websites: Website[] = [
     address: 'https://fanyi.baidu.com/',
     keywords: ['翻译'],
   },
-  // 邮箱
   {
     title: '登录QQ邮箱',
     description:
@@ -910,14 +882,12 @@ const websites: Website[] = [
     address: 'https://wx.mail.qq.com/?cancel_login=true&from=upexpected_login_redirect',
     keywords: ['邮箱'],
   },
-  // 下载
   {
     title: '微博秒拍视频下载',
     description: '微博视频下载,秒拍视频下载,视频在线下载工具,批量视频解析下载,视频下载工具',
     address: 'https://weibomiaopai.com/',
     keywords: ['下载', '视频'],
   },
-  // 可视化
   {
     title: 'Datawrapper - Create charts, maps, and tables',
     description:
@@ -925,7 +895,6 @@ const websites: Website[] = [
     address: 'https://www.datawrapper.de/',
     keywords: ['可视化', '数据', '可以登录'],
   },
-  // 数学
   {
     title: 'Microsoft数学求解器-数学问题求解器和计算器',
     description:
@@ -946,7 +915,6 @@ const websites: Website[] = [
     address: 'https://www.geogebra.org/',
     keywords: ['数学'],
   },
-  // 声音
   {
     title: 'Introducing Peregrine - Realistic Text to Speech Model with Emotion',
     description:
@@ -975,7 +943,6 @@ const websites: Website[] = [
     address: 'https://app.xunjiepdf.com/ja/voice2text/',
     keywords: ['声音', '转换'],
   },
-  // PDF
   {
     title: 'Sejda helps with your PDF tasks',
     description:
@@ -983,7 +950,6 @@ const websites: Website[] = [
     address: 'https://www.sejda.com/',
     keywords: ['PDF'],
   },
-  // 工具
   {
     title: '帮小忙，腾讯QQ浏览器在线工具箱平台',
     description:
@@ -996,6 +962,13 @@ const websites: Website[] = [
     description: '在线的免费的发票提取工具，支持电子发票一键批量提取到Excel表中。',
     address: 'https://airegex.cn/',
     keywords: ['工具', '发票'],
+  },
+  {
+    title: 'Ofox_AI',
+    description:
+      'OfoxAI 统一大模型 API 网关，一个 API 接入 GPT-5.4、Claude Opus 4.6、Gemini 3.1、DeepSeek V3.2 等 100+ 模型。全球加速低延迟，兼容 OpenAI 接口 3 分钟集成。99.9% SLA，为开发者和企业而生。',
+    address: 'https://ofox.ai/zh',
+    keywords: ['ai'],
   },
 ]
 
