@@ -970,6 +970,13 @@ const websites: Website[] = [
     address: 'https://ofox.ai/zh',
     keywords: ['ai'],
   },
+  {
+    title: '蓝光影院_-_最新大头电影未删减在线观看__高清影视资源',
+    description:
+      '蓝光影院为您提供最新大头电影未删减在线观看，海量高清视频资源尽在其中，立即体验最佳观影体验！',
+    address: 'https://www.90sr.com/',
+    keywords: ['视频'],
+  },
 ]
 
 export default websites
